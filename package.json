@@ -1,0 +1,22 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "Task Listing Project with NodeJs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laecioandrade/to-do-list.git"
+  },
+  "author": "Laécio Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laecioandrade/to-do-list/issues"
+  },
+  "homepage": "https://github.com/laecioandrade/to-do-list#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
