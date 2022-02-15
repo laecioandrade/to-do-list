@@ -4,7 +4,8 @@
   "description": "Task Listing Project with NodeJs",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/laecioandrade/to-do-list#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
   }
 }
