@@ -39,9 +39,9 @@
     <section id="tasks">
         <ul>
             <% taskList.forEach((task) => { %>
-                <li>
+                <li class="check-true">
                     <div>
-                        <a href="/"><%= task.task %></a>
+                        <a href="/" class="check-true"><%= task.task %></a>
                         <span>Criado em <%= task.date.toLocaleDateString('pt-BR') %></span>
                     </div>
                     <div>
