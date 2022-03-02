@@ -1,0 +1,10 @@
+<div id="details">
+    <h1><%= titleForm %></h1>
+    <p>Digite o texto no campo de entrada para adicionar itens à sua lista.</p>
+    <p>Clique no item para marcá-lo como concluído.</p>
+    <p>Clique no "X" para remover o item da sua lista.</p>
+</div>
+<form action="/<%= action %>" method="post">
+    <input type="text" name="task" id="task" placeholder="Insira uma terefa" value="<%= value %>">
+    <button id="<%= idBtn %>" type="submit"><%= nameBtn %></button>
+</form>
